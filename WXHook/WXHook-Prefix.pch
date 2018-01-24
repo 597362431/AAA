@@ -1,0 +1,72 @@
+//
+// Prefix header for all source files of the 'WXHook' target in the 'WXHook' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+  #import "NSConcreteNotification.h"
+  #define THEOS_INSTANCE_NAME "WXHook_tweak"
+  #import "/opt/theos/Prefix.pch"
+  #import <CaptainHook/CaptainHook.h>
+  #import "Constants.h"
+  #import "WXDebug.h"
+
+  CHDeclareClass(KarenLocalizer);
+
+  CHDeclareClass(MicroMessengerAppDelegate);
+  CHDeclareClass(MMImage);
+  CHDeclareClass(WCNewCommitViewController);
+  CHDeclareClass(BaseMessageCellView)
+  CHDeclareClass(TextMessageViewModel);
+  CHDeclareClass(MMUIViewController);
+  CHDeclareClass(CBaseContact);
+  CHDeclareClass(UINavigationController);
+  CHDeclareClass(WCFacade);
+  CHDeclareClass(MMGrowTextView);
+  CHDeclareClass(MMServiceCenter)
+  CHDeclareClass(TextMessageCellView)
+  CHDeclareClass(ImageMessageCellView)
+  CHDeclareClass(VoiceMessageCellView)
+  CHDeclareClass(VideoMessageCellView)
+  CHDeclareClass(EmoticonMessageCellView)
+  CHDeclareClass(SightDraft);
+  CHDeclareClass(BaseMsgContentViewController)
+  CHDeclareClass(ImageMessageViewModel);
+  CHDeclareClass(UIImage);
+
+  CHDeclareClass(FBProcessManager);
+  CHDeclareClass(FBProcess);
+
+  CHDeclareClass(SpringBoard)
+  CHDeclareClass(SBScreenshotManager)
+  CHDeclareClass(SBScreenshotManagerDataSource)
+  CHDeclareClass(UIScreen)
+  CHDeclareClass(_SBMainScreenScreenshotProvider)
+
+  CHDeclareClass(JailBreakHelper)
+  CHDeclareClass(ForwardMessageMgr)
+  CHDeclareClass(MessageService)
+  CHDeclareClass(CMessageWrap)
+  CHDeclareClass(SettingUtil)
+  CHDeclareClass(MMNewSessionMgr)
+  CHDeclareClass(MMTextView)
+  CHDeclareClass(NSConcreteNotification)
+  CHDeclareClass(MMTitleView)
+  CHDeclareClass(MMUILabel)
+  CHDeclareClass(MMUINavigationBar)
+  CHDeclareClass(WCPayPickerView)
+  CHDeclareClass(WCRedEnvelopesRedEnvelopesHistoryListViewController)
+
+  CHDeclareClass(CMessageMgr)
+
+  CHDeclareClass(WCDeviceStepObject)
+  CHDeclareClass(MsgResourceBrowseViewController)
+
+  CHDeclareClass(SimpleMsgInfo)
+
+  CHDeclareClass(WCTimeLineCellView)
+  CHDeclareClass(WCContentItem)
+  CHDeclareClass(WCMediaItem)
+  CHDeclareClass(WCImageCache)
+  CHDeclareClass(CContactMgr)
+#endif
